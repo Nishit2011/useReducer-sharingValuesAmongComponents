@@ -12,6 +12,7 @@ const ComponentB = () => {
       <button onClick={() => contextHandler.countDispatch("RESET")}>
         B-RESET
       </button>
+      <div>Value in Component B: {contextHandler.countVal}</div>
     </div>
   );
 };
